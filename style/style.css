@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+
+/* header part css design start */
+.header{
+    padding: 50px 95px 100px;
+}
+
+/* navbar part css design */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+}
+.logo{
+    max-width: 48px;
+}
+.logo-name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.name > .hero{
+    color: #131318;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+.name > .travel{
+    color: #FF5400;
+    font-size: 2.25rem;
+    font-weight: 800;
+}
+.navbar .manubar{
+    display: flex;
+    align-items: center;
+    gap: 44px;
+}
+.manubar > .manu-list{
+    list-style: none;
+}
+.manu-list > a{
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+.home{
+    color: #FF5400;
+    font-weight: 700;
+}
+.bar-icon{
+    display: none;
+    color: #131318;
+    font-size: 1.3rem;
+}
+
+
+/* banner part css design */
+.banner{
+    height: 500px;
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../Images/Group\ 13.png');
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    text-align: center;
+    padding: 106px 0px;
+}
+.banner-title{
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 800;
+}
+.banner-description{
+    max-width: 676px;
+    margin: 0 auto;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 24px 0px 48px;
+}
+.all-input{
+    max-width: 770px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    padding: 16px;
+    background-color: rgba(255, 255, 255, 0.30);
+    border-radius: 8px;
+}
+.all-input > input, select, button{
+    width: 175px;
+    padding: 16px;
+    border-radius: 8px;
+    border: 0;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+    outline: none;
+}
+.all-input > input::placeholder{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.banner-btn{
+    background-color: #FF5400;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+/* header part css design end */
+
+/* main part design start */
+.our-popular-tours{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    padding: 0px 100px;
+}
+.our-popular-title{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.popular-description{
+    width: 50%;
+}
+.popular-description > .our-popular-description, ul > li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 24px;
+}
+.popular-description > ul{
+    padding-left: 20px;
+}
+.popular-btn{
+    margin-top: 32px;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 800;
+    border-radius: 8px;
+    background-color: #FF5400;
+    padding: 13px 34px;
+}
+.popular-img{
+    width: 50%;
+}
+.popular-img > img{
+    width: 100%;
+    display: block;
+}
+/* main part design end */
+
+
+/* mobail for media quary style */
+
+@media screen and (max-width:600px) {
+    .header{
+        padding: 20px;
+    }
+    .navbar{
+        padding-bottom: 20px;
+    }
+    .logo{
+        width: 28px;
+    }
+    .name > .hero, .name > .travel{
+        font-size: 1.3rem;
+    }
+    .navbar > .manubar{
+        display: none;
+    }
+    .bar-icon{
+        display: block;
+    }
+    .banner{
+        max-width: 329px;
+        height: auto;
+        padding: 32px 24px;
+    }
+    .banner-title{
+        font-size: 1.3rem;
+    }
+    .banner-description{
+        font-size: 0.8rem;
+        padding: 10px 0px 30px 0px;
+        line-height: 20px;
+    }
+    .all-input{
+        max-width: 270px;
+        flex-direction: column;
+        padding: 16px;
+    }
+    .all-input > input, select, button{
+        width: 198px;
+    }
+    .our-popular-tours{
+        gap: 0px;
+        padding: 24px 20px;
+        flex-direction: column;
+    }
+    .popular-description, .popular-img
+    {
+        width: 100%;
+    }
+    .our-popular-title{
+        font-size: 1.2rem;
+    }
+    .popular-description > .our-popular-description, ul > li{
+        font-size: 0.8rem;
+    }
+    .popular-img{
+        padding-top: 25px;
+    }
+}
