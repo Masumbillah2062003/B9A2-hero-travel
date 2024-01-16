@@ -256,6 +256,66 @@
 .choose-images-7 > img{
     width: 464px;
 }
+
+/* Why Choose Us section css design */
+.why-choose-us-section{
+    padding: 100px 100px 0px;
+}
+.why-choose-us-title{
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.why-choose-us-description{
+    padding: 24px 0px 48px 0px;
+    max-width: 630px;
+    margin: 0 auto;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
+.why-section-cards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+.card{
+    max-width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background-color: rgba(251, 181, 99, 0.05);
+    padding: 32px;
+}
+.card-map{
+        border: 1px solid rgba(41, 206, 246, 0.20);
+    background-color: rgba(41, 206, 246, 0.05);
+}
+.card-price{
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background-color: rgba(233, 68, 68, 0.05);
+
+
+
+}
+.card > h3{
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 32px 0px 16px 0px;
+}
+.card > p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+}
 /* main part design end */
 
 
