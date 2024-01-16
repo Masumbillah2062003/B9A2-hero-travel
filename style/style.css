@@ -12,7 +12,7 @@
 
 /* header part css design start */
 .header{
-    padding: 50px 95px 100px;
+    padding: 50px 70px 100px;
 }
 
 /* navbar part css design */
@@ -129,17 +129,18 @@
 .our-popular-tours{
     display: flex;
     justify-content: space-between;
-    align-items: center;
     gap: 50px;
     padding: 0px 100px;
+    height: 50%;
+}
+.popular-description{
+    width: 50%;
+    height: 100%;
 }
 .our-popular-title{
     color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
-}
-.popular-description{
-    width: 50%;
 }
 .popular-description > .our-popular-description, ul > li{
     color: rgba(19, 19, 24, 0.70);
@@ -165,13 +166,13 @@
 }
 .popular-img > img{
     width: 100%;
-    display: block;
+    height: 100%;
 }
 
 
 /* choose your destination section */
 .choose-your-destination{
-    padding: 80px 100px 0px;
+    padding: 100px 100px 0px;
 }
 .choose-title{
     color: #131318;
@@ -326,7 +327,7 @@
     border: 1px solid #FF5400;
     border-radius: 8px;
     width: 50%;
-    height: 422px;
+    height: 398px;
 }
 .input-description-section > h3{
     color: #131318;
@@ -359,7 +360,7 @@
 }
 .newletter-img{
     width: 50%;
-    height: 422px;
+    height: 398px;
     background-image: url('../Images/Rectangle\ 8\ \(1\).png');
     background-position: center;
     background-repeat: no-repeat;
@@ -477,6 +478,7 @@
         gap: 0px;
         padding: 24px 20px;
         flex-direction: column;
+        height: auto;
     }
     .popular-description, .popular-img
     {
@@ -594,10 +596,14 @@
     .input-description-section{
         width: 100%;
         padding: 20px;
+        height: 100%;
     }
     .input-description-section > p{
         width: 240px;
 
+    }
+    .newsletter-input > input[type="button"]{
+        margin-bottom: 5px;
     }
     .newletter-img{
         width: 100%;
