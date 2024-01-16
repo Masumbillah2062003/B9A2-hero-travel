@@ -325,6 +325,103 @@
     line-height: 26px;
 }
 
+
+/* optional section one css design*/
+.optional-section-one{
+    padding: 100px 100px;
+}
+.deals-discounts{
+    width: 640px;
+    margin: 0 auto;
+}
+.deals-title{
+    color: #131318;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+.deals-discounts-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px; 
+}
+.deals-discounts-img-one{
+    height: 500px;
+    width: 100%;
+    background-image: url('../Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 16px;
+}
+.deals-discounts-img-two{
+    height: 500px;
+    width: 100%;
+    background-image: url('../Images/Group\ 40.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 24px 0px;
+    border-radius: 16px;
+}
+
+.deals-discounts-card{
+    width: 579px;
+    height: 389px;
+    padding: 50px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background-color: rgba(255, 255, 255, 0.80);
+}
+.deals-discounts-card > p{
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    width: 452px;
+}
+.deals-description{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+.deals-description > span{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.deals-discounts-card > h2{
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding: 18px 0px 12px 0px;
+}
+.deals-discounts-card > h3{
+    color: #FF5400;
+    font-size: 1.2rem;
+    font-weight: 800;
+    padding: 13px 0px 21px 0px;
+}
+.deals-discounts-card > button{
+    border-radius: 8px;
+    background-color: #FF5400;
+    padding: 15px 25px;
+    border: 0;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
 /* input and image section css design */
 .input-and-images-section{
     padding: 100px;
@@ -596,6 +693,48 @@
     .card > p{
         font-size: 0.8rem;
         line-height: 20px;
+    }
+
+    .optional-section-one{
+        padding: 20px;
+    }
+    .deals-title{
+        font-size: 1.2rem;
+    }
+    .deals-discounts-description{
+        padding: 16px 0;
+    }
+    .deals-discounts{
+        width: 100%;
+    }
+    .deals-discounts-img-one,
+    .deals-discounts-img-two{
+        padding: 16px;
+        align-items: end;
+    }
+    .deals-discounts-card{
+        width: 100%;
+        padding: 20px;
+        height: auto;
+    }
+    .deals-description{
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+    .deals-discounts-card > h2{
+        font-size: 1.2rem;
+    }
+    .deals-discounts-card > p{
+        width: 100%;
+        font-size: 0.8rem;
+        line-height: 18px;
+    }
+    .deals-discounts-card > h3{
+        font-size: 1rem;
+    }
+    .deals-discounts-card > button{
+        font-size: 1.1rem;
+        padding: 8px 20px;
     }
 
     .input-and-images-section{
