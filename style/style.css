@@ -142,7 +142,7 @@
     font-size: 2.5rem;
     font-weight: 800;
 }
-.popular-description > .our-popular-description, ul > li{
+.popular-description > ul > li, .our-popular-description{
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
