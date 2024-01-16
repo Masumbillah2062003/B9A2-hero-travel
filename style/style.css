@@ -328,7 +328,7 @@
 
 /* optional section one css design*/
 .optional-section-one{
-    padding: 100px 100px;
+    padding: 100px 100px 0px;
 }
 .deals-discounts{
     width: 640px;
@@ -348,6 +348,7 @@
     line-height: 26px; 
 }
 .deals-discounts-img-one{
+    margin-top: 45px;
     height: 500px;
     width: 100%;
     background-image: url('../Images/Group\ 39.png');
@@ -421,6 +422,22 @@
     font-size: 1.2rem;
     font-weight: 800;
 }
+.see-botton{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.see-all-packages-btn{
+    border-radius: 8px;
+    background-color: #FF5400;
+    padding: 14px 22px;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 800;
+    width: 210px;
+}
+
 
 /* input and image section css design */
 .input-and-images-section{
